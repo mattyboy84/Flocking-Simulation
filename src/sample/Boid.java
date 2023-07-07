@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Boid {
-
     int WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width;
     int HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().height;
     Timeline timeline;

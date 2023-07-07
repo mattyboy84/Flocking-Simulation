@@ -22,7 +22,7 @@ ArrayList<Boid> boids = new ArrayList<>();
 
     @Override
     public void start(Stage stage) {
-        int n=50;
+        int n=150;
         Slider alignSlider =new Slider(0,1000,150);
         alignSlider.relocate(100,100);
         Slider cohesionSlider =new Slider(0,1000,100);
